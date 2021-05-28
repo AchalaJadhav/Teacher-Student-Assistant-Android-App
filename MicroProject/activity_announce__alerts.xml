@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Announce_Alerts"
+    android:background="#002147"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Annouce Notification  "
+                android:background="@drawable/btn_rounded"
+                android:textSize="25dp"
+                android:fontFamily="@font/aclonica"
+                android:layout_centerHorizontal="true">
+
+            </TextView>
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="  Set Title"
+            android:padding="16dp"
+            android:textColor="#000"
+            android:fontFamily="@font/aclonica"
+            android:background="@drawable/btn_rounded"
+            >
+        </EditText>
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:layout_marginTop="15dp"
+            >
+
+            <EditText
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/btn_rounded"
+                android:ems="10"
+                android:textSize="20dp"
+                android:padding="16dp"
+                android:hint="  Enter your Message"
+                android:fontFamily="cursive"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/sendNotification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Send Notification  "
+                android:background="@color/bluelight">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

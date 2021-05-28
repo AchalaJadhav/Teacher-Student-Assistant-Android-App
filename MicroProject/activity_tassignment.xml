@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002147"
+    tools:context=".TAssignmentActivity">
+
+
+    <EditText
+        android:id="@+id/txt_pdfName"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="  Add label to your PDF"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/text_rounded"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btn_fileuploader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload File"
+        android:layout_below="@id/txt_pdfName"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_style"
+        android:textColor="#fff"
+        android:textSize="18sp">
+    </Button>
+
+
+</RelativeLayout>
